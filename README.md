@@ -10,7 +10,7 @@
 
 ## 💻 Languages and Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,docker,mysql,nextflow,perl,pytorch,tensorflow" />
+  <img src="https://skillicons.dev/icons?i=python,r,docker,mysql,nfcore,perl,pytorch,tensorflow" />
 </p>
 
 ## 📊 GitHub Stats
