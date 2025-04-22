@@ -10,7 +10,8 @@
 
 ## 💻 Languages and Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,docker,mysql,postgresql,postman,perl,pytorch,tensorflow,vscode,tidyverse,pandas,numpy,ggplot,matplotlib" />
+  <img src="https://skillicons.dev/icons?i=python,r,docker,mysql,postgresql,postman,perl,pytorch,tensorflow,vscode,
+            tidyverse,pandas,numpy,ggplot,matplotlib" />
 </p>
 
 ## 📊 GitHub Stats
