@@ -5,12 +5,12 @@
 </div>
 
 ## 🤝 Connect with me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/elifduymazy)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elif-duymaz/)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/elifduymazy)
 
 ## 💻 Languages and Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,docker,mysql,postgresql,postman,perl,pytorch,tensorflow,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,r,docker,mysql,postgresql,postman,perl,pytorch,tensorflow,vscode,tidyverse,pandas,numpy,ggplot,matplotlib" />
 </p>
 
 ## 📊 GitHub Stats
