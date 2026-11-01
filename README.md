@@ -28,6 +28,8 @@ A top-down toastie shop game for the browser, available in English and Turkish. 
 
 ### allermind
 
+<img src="assets/allermind-mark.png" alt="allermind logo" width="88" align="right">
+
 A personalized, explainable daily outdoor allergy risk app in active development. It reads pollen, air quality, UV and weather against a person's own allergy profile and shows which hours of the day suit them best.
 
 ```mermaid
@@ -44,7 +46,7 @@ flowchart LR
 
 **Built with:** Flutter · FastAPI · SQLAlchemy · PostgreSQL · Terraform · Astro
 
-**[allermind.com](https://allermind.com)**
+**[allermind.com](https://allermind-b21fe.web.app/tr/)**
 
 ### Fonfody
 
