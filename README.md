@@ -4,7 +4,7 @@
   <img src="assets/banner-light.svg" alt="Elif Duymaz Yılmaz, AI-Native Full-Stack Engineer and Data Scientist" width="100%">
 </picture>
 
-<br>
+<p align="center"><b>🚴‍♀️ Keep pedaling, keep learning!</b></p>
 
 I build AI-powered products end to end: data pipelines, backends, mobile and web clients, and the delivery around them. My background runs from mathematics through bioengineering to AI engineering, so I treat software the way I treat research: state the assumption, measure it, and explain the result.
 
@@ -44,6 +44,8 @@ flowchart LR
 
 **Built with:** Flutter · FastAPI · SQLAlchemy · PostgreSQL · Terraform · Astro
 
+**[allermind.com](https://allermind.com)**
+
 ### Fonfody
 
 <img src="assets/fonfody-mark.svg" alt="Fonfody logo" width="88" align="right">
@@ -58,10 +60,6 @@ flowchart LR
 
 **[fonfody.com](https://fonfody.com)**
 
-### King Skor Takip
-
-A free score tracker for the card game King, so players can focus on the table instead of the math. **[kingskortakip.com.tr](https://kingskortakip.com.tr/)**
-
 ---
 
 ## Experience
@@ -70,7 +68,7 @@ A free score tracker for the card game King, so players can focus on the table i
 Developing AI-powered software in a professional product team.
 
 **Co-founder & Game Developer — [Yilmaz Game Studio](https://github.com/yilmazgamestudio)** · Current<br>
-Designing, building and releasing browser games such as Tostik Town, and companion tools such as King Skor Takip.
+Designing, building and releasing browser games such as Tostik Town.
 
 ---
 
@@ -112,6 +110,7 @@ Designing, building and releasing browser games such as Tostik Town, and compani
 
 ## Education
 
-- **MSc Candidate, AI Engineering**
+- **MSc, AI Engineering**
 - **MSc, Bioengineering**
 - **BSc, Mathematics**
+- **BSc, Management Information Systems**
