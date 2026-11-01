@@ -34,13 +34,13 @@ A top-down toastie shop game for the browser, available in English and Turkish. 
 
 A personalized, explainable daily outdoor allergy risk app in active development. It reads pollen, air quality, UV and weather against a person's own allergy profile and shows which hours of the day suit them best.
 
-```mermaid
-flowchart LR
-    app["Flutter<br/>iOS · Android · Web"] -->|"HTTPS · JWT"| api["FastAPI<br/>modular monolith"]
-    api --> scoring["Scoring engine<br/>pure · versioned · 100% coverage"]
-    api --> db[("PostgreSQL<br/>encrypted health fields")]
-    api --> providers[("Open-Meteo · CAMS<br/>Google Pollen")]
-```
+<br clear="right">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/allermind-architecture-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/allermind-architecture-light.svg">
+  <img src="assets/allermind-architecture-light.svg" alt="allermind architecture: a Flutter app calls a FastAPI backend, which uses the scoring engine, PostgreSQL and external data providers" width="100%">
+</picture>
 
 - **Explainable by design:** a pure, versioned scoring engine, so every result can be traced and reproduced.
 - **Health data protected:** encrypted sensitive fields, a STRIDE threat model and KVKK and GDPR mapping.
