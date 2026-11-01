@@ -18,7 +18,9 @@ I currently work as an **AI Developer** and co-founded **Yilmaz Game Studio**, w
 
 ### Tostik Town
 
-[![Tostik Town cover art: a toastie master behind the counter with neighborhood customers and a cat](assets/tostik-town.png)](https://yilmazgamestudio.github.io/tostik-town/)
+<p align="center">
+  <a href="https://yilmazgamestudio.github.io/tostik-town/"><img src="assets/tostik-town.png" alt="Tostik Town cover art: a toastie master behind the counter with neighborhood customers and a cat" width="640"></a>
+</p>
 
 A top-down toastie shop game for the browser, available in English and Turkish. Press every toastie by hand, serve the neighborhood and grow your tiny shop.
 
