@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 274" width="1104" height="822" role="img" aria-label="Fonfody">
+  <defs>
+    <linearGradient id="frame" x1="20" y1="10" x2="280" y2="262" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3f7fc4"/>
+      <stop offset=".55" stop-color="#2f6cb5"/>
+      <stop offset="1" stop-color="#2a4f8f"/>
+    </linearGradient>
+    <linearGradient id="flowTeal" x1="70" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2f7fc0"/>
+      <stop offset="1" stop-color="#35c3cf"/>
+    </linearGradient>
+    <linearGradient id="flowBlue" x1="70" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34b4c8"/>
+      <stop offset="1" stop-color="#2f6cb5"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="265" y1="165" x2="265" y2="265" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8fa6c4"/>
+      <stop offset="1" stop-color="#4d6c98"/>
+    </linearGradient>
+  </defs>
+
+  <!-- frame: open on the left for the data, on the right for the alert and the shield -->
+  <path d="M20 92V52C20 26 39 7 65 7H230C256 7 275 26 275 52V82" fill="none" stroke="url(#frame)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M20 178V219C20 245 39 264 65 264H205" fill="none" stroke="url(#frame)" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- incoming data -->
+  <g fill="#2f6cb5">
+    <rect x="0" y="100" width="9" height="9" rx="1.5" opacity=".75"/>
+    <rect x="0" y="120" width="9" height="9" rx="1.5" opacity=".75"/>
+    <rect x="0" y="140" width="9" height="9" rx="1.5" opacity=".75"/>
+    <rect x="0" y="160" width="9" height="9" rx="1.5" opacity=".75"/>
+    <rect x="18" y="100" width="10" height="10" rx="1.5"/>
+    <rect x="18" y="120" width="10" height="10" rx="1.5"/>
+    <rect x="18" y="140" width="10" height="10" rx="1.5"/>
+    <rect x="18" y="160" width="10" height="10" rx="1.5"/>
+  </g>
+  <g fill="#2f9fc0">
+    <rect x="37" y="100" width="11" height="11" rx="1.5"/>
+    <rect x="37" y="120" width="11" height="11" rx="1.5"/>
+    <rect x="37" y="140" width="11" height="11" rx="1.5"/>
+    <rect x="37" y="160" width="11" height="11" rx="1.5"/>
+  </g>
+  <g fill="#35c3cf">
+    <rect x="56" y="100" width="12" height="12" rx="1.5"/>
+    <rect x="56" y="120" width="12" height="12" rx="1.5"/>
+    <rect x="56" y="140" width="12" height="12" rx="1.5"/>
+    <rect x="56" y="160" width="12" height="12" rx="1.5"/>
+  </g>
+
+  <!-- signal flows -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M72 106C128 106 128 42 184 42" stroke="url(#flowTeal)" stroke-width="9"/>
+    <path d="M72 126C118 126 122 94 156 94" stroke="url(#flowTeal)" stroke-width="9"/>
+    <path d="M72 146C118 146 122 161 156 161" stroke="url(#flowBlue)" stroke-width="9"/>
+    <path d="M72 166C128 166 128 218 184 218" stroke="url(#flowBlue)" stroke-width="9"/>
+    <path d="M168 94V161M197 80V218" stroke="#2f6cb5" stroke-width="8"/>
+    <path d="M197 42C222 42 233 72 233 104" stroke="#2f6cb5" stroke-width="8"/>
+    <path d="M233 140V168" stroke="#2f6cb5" stroke-width="8"/>
+  </g>
+
+  <!-- nodes -->
+  <circle cx="196" cy="42" r="13" fill="#35c3cf"/>
+  <circle cx="197" cy="80" r="12" fill="#2f6cb5"/>
+  <circle cx="168" cy="94" r="12" fill="#2f6cb5"/>
+  <circle cx="168" cy="161" r="12" fill="#2f9fc0"/>
+  <circle cx="197" cy="166" r="12" fill="#2f6cb5"/>
+  <circle cx="197" cy="218" r="12" fill="#2f5aa6"/>
+  <circle cx="228" cy="122" r="12" fill="#6b4f6f"/>
+
+  <!-- alert: a magnifier, the lens is see-through so any background shows -->
+  <path d="M243 116.5H287V127.5H243A5.5 5.5 0 0 1 243 116.5Z" fill="#e8483c"/>
+  <circle cx="308" cy="122" r="20" fill="#e8483c" fill-opacity=".14" stroke="#e8483c" stroke-width="7"/>
+  <path d="M308 110V124" stroke="#e8483c" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="308" cy="134" r="3.4" fill="#e8483c"/>
+  <g fill="none" stroke="#e8483c" stroke-linecap="round" stroke-width="6">
+    <path d="M337 102C345 114 345 130 337 142"/>
+    <path d="M349 88C362 107 362 137 349 156"/>
+  </g>
+
+  <!-- shield: no white outline, so it holds on any background -->
+  <path d="M265 165L307 181V212C307 238 289 256 265 268C241 256 223 238 223 212V181Z" fill="url(#shield)"/>
+  <path d="M265 175L298 188V212C298 233 284 248 265 258C246 248 232 233 232 212V188Z" fill="none" stroke="#2a4f8f" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M245 214L259 228L287 198" fill="none" stroke="#35c3cf" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
