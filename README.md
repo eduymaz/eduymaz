@@ -6,15 +6,15 @@
 
 <p align="center"><b>🚴‍♀️ Keep pedaling, keep learning!</b></p>
 
-I build AI-powered products end to end: data pipelines, backends, mobile and web clients, and the delivery around them. My background runs from mathematics through bioengineering to AI engineering, so I treat software the way I treat research: state the assumption, measure it, and explain the result.
+**AI-Native Full-Stack Engineer & Data Scientist.** I build AI-powered products end to end: data pipelines, backends, mobile and web clients, and the delivery around them. My background runs from mathematics through bioengineering to AI engineering, so I treat software the way I treat research: state the assumption, measure it, and explain the result.
 
-I currently work as an **AI Developer** and co-founded **Yilmaz Game Studio**, where I ship browser games.
+I currently work as an **AI Developer** and co-founded **Yilmaz Game Studio**, where we release browser games, starting with Tostik Town.
 
-**[LinkedIn](https://www.linkedin.com/in/elif-duymaz/)** · **[Kaggle](https://www.kaggle.com/edyjui)** · **[Featured products](#featured-products)** · **[Experience](#experience)** · **[Data science](#data-science--research)**
+**[LinkedIn](https://www.linkedin.com/in/elif-duymaz/)** · **[Kaggle](https://www.kaggle.com/edyjui)** · **[Featured work](#featured-work)** · **[Experience](#experience)** · **[Data science](#data-science--research)**
 
 ---
 
-## Featured products
+## Featured work
 
 ### Tostik Town
 
@@ -22,25 +22,25 @@ I currently work as an **AI Developer** and co-founded **Yilmaz Game Studio**, w
 
 A top-down toastie shop game for the browser, available in English and Turkish. Press every toastie by hand, serve the neighborhood and grow your tiny shop.
 
-**Built with:** Phaser 4 · JavaScript · Python build and art tooling · procedurally composed music
+**Built with:** Phaser 4 · JavaScript · Python build and art tooling · original music synthesized live with the Web Audio API
 
-**[▶ Play now](https://yilmazgamestudio.github.io/tostik-town/)** · **[Repository](https://github.com/yilmazgamestudio/tostik-town)** · A Yilmaz Game Studio production
+**[▶ Play now](https://yilmazgamestudio.github.io/tostik-town/)** · **[Release repository](https://github.com/yilmazgamestudio/tostik-town)** · A Yilmaz Game Studio production
 
 ### allermind
 
-Personalised, explainable daily outdoor allergy risk. It reads pollen, air quality, UV and weather against a person's own allergy profile and shows which hours of the day suit them best.
+A personalized, explainable daily outdoor allergy risk app in active development. It reads pollen, air quality, UV and weather against a person's own allergy profile and shows which hours of the day suit them best.
 
 ```mermaid
 flowchart LR
     app["Flutter<br/>iOS · Android · Web"] -->|"HTTPS · JWT"| api["FastAPI<br/>modular monolith"]
-    api --> scoring["Scoring engine<br/>pure · versioned · fully tested"]
+    api --> scoring["Scoring engine<br/>pure · versioned · 100% coverage"]
     api --> db[("PostgreSQL<br/>encrypted health fields")]
     api --> providers[("Open-Meteo · CAMS<br/>Google Pollen")]
 ```
 
 - **Explainable by design:** a pure, versioned scoring engine, so every result can be traced and reproduced.
-- **Health data protected:** encrypted sensitive fields and a threat model covering KVKK and GDPR.
-- **Contract-first API:** an OpenAPI contract generates the Dart client, and CI validates both sides.
+- **Health data protected:** encrypted sensitive fields, a STRIDE threat model and KVKK and GDPR mapping.
+- **Generated API contract:** the backend's OpenAPI schema generates the Dart client, and CI fails if either side drifts.
 
 **Built with:** Flutter · FastAPI · SQLAlchemy · PostgreSQL · Terraform · Astro
 
@@ -50,13 +50,14 @@ flowchart LR
 
 <img src="assets/fonfody-mark.svg" alt="Fonfody logo" width="88" align="right">
 
-**Spotting financial risk before it becomes visible.** An explainable early-warning platform for Türkiye's fund and banking data, taking the algorithm from my master's thesis to production grade.
+**Spotting financial risk before it becomes visible.** An explainable early-warning platform in active development for Türkiye's fund and banking data, designed to take the algorithm from my master's thesis to production grade.
 
-- **Cross-channel view:** deposits, participation funds and investment funds in one regime-controlled model.
-- **Evidence-bound AI assistant:** a deterministic engine produces every score, and the LLM only narrates evidence verified on the server.
-- **Measured earliness:** a time-machine replay computes how many days earlier a signal appeared.
+- **Cross-channel design:** deposits, participation funds and investment funds in one regime-controlled model.
+- **Evidence-bound AI by design:** a deterministic engine produces every score, and the LLM only narrates evidence verified on the server.
+- **Earliness as the success metric:** a time-machine replay is designed to measure how many days earlier a signal appeared.
+- **Built so far:** public-data connectors, a controlled vocabulary, observability and run tracking, and a Kubernetes data platform behind strict CI gates.
 
-**Built with:** Python · FastAPI · polars · scikit-learn · SHAP · Dagster · MLflow · Apache Iceberg · ClickHouse · React · Claude API
+**Foundation:** Python · Kubernetes · Dagster · MLflow · Apache Iceberg · ClickHouse · Keycloak · Vault · GitHub Actions
 
 **[fonfody.com](https://fonfody.com)**
 
@@ -68,7 +69,7 @@ flowchart LR
 Developing AI-powered software in a professional product team.
 
 **Co-founder & Game Developer — [Yilmaz Game Studio](https://github.com/yilmazgamestudio)** · Current<br>
-Designing, building and releasing browser games such as Tostik Town.
+Designing, building and releasing browser games, starting with Tostik Town.
 
 ---
 
@@ -77,20 +78,20 @@ Designing, building and releasing browser games such as Tostik Town.
 | Project | What it shows |
 |---|---|
 | **[mirna-project](https://github.com/eduymaz/mirna-project)** | Automated R pipeline for Affymetrix data: RMA normalization, differential expression, pathway enrichment and miRNA target prediction for Methylmalonic Acidemia |
-| **[Bioinformatics](https://github.com/eduymaz/Bioinformatics)** | Containerized single-cell RNA-seq, alternative splicing, spatial and multi-omics workflows with Docker, Seurat and Kallisto |
-| **[AI-Master-Degree](https://github.com/eduymaz/AI-Master-Degree)** | Master's coursework and research in computer vision, image processing, NLP and deep learning |
-| **[machinelearning](https://github.com/eduymaz/machinelearning)** | Classical ML implementations and applied prediction projects |
-| **[power-bi-analytics](https://github.com/eduymaz/power-bi-analytics)** | End-to-end BI reports covering data modeling and advanced DAX |
+| **[Bioinformatics](https://github.com/eduymaz/Bioinformatics)** | Containerized single-cell RNA-seq pipeline with Docker, Seurat and Kallisto, an alternative splicing analysis, and spatial and multi-omics coursework |
+| **[AI-Master-Degree](https://github.com/eduymaz/AI-Master-Degree)** | Master's coursework and research in computer vision, image processing, NLP and deep learning, including a [full-stack legal RAG system](https://github.com/eduymaz/AI-Master-Degree/tree/main/SEMESTER-II/ai-ethics-legal-rag) |
+| **[machinelearning](https://github.com/eduymaz/machinelearning)** | Classical ML implementations and applied prediction projects, including PyTorch and TensorFlow models, from the Turkcell GYK program |
+| **[power-bi-analytics](https://github.com/eduymaz/power-bi-analytics)** | Power BI coursework portfolio covering data preparation, data modeling and DAX |
 
 ---
 
 ## How I engineer
 
 - **Decisions are written down.** Architecture decision records and requirements come before the code.
-- **Contracts first.** Shared schemas keep clients and services in step, and CI enforces them.
+- **Shared contracts.** Generated schemas keep clients and services in step, and CI enforces them.
 - **Determinism where it matters.** Scores come from tested engines, and AI explains the evidence.
-- **AI-native delivery.** I build with AI agents throughout the development cycle, with review and automated quality gates on every change.
-- **Privacy and security from day one.** Threat models, data classification and secret scanning are part of the baseline.
+- **AI-native delivery.** I build with AI agents throughout the development cycle, with automated review and quality gates on every change to my product repositories.
+- **Privacy and security by default.** Threat models, data classification and secret scanning are part of the baseline.
 
 ---
 
@@ -100,8 +101,8 @@ Designing, building and releasing browser games such as Tostik Town.
 |---|---|
 | **Languages** | Python · TypeScript · JavaScript · Dart · R · SQL |
 | **AI & LLM** | Claude API · Claude Code · PyTorch · TensorFlow |
-| **Data science** | polars · scikit-learn · SHAP · statsmodels · MLflow · Dagster · Power BI |
-| **Backend** | FastAPI · Pydantic · SQLAlchemy · PostgreSQL · ClickHouse |
+| **Data science** | scikit-learn · SHAP · statsmodels · Power BI |
+| **Backend** | FastAPI · Pydantic · SQLAlchemy · PostgreSQL |
 | **Frontend & mobile** | Flutter · React · Astro · Phaser |
 | **Infrastructure** | Docker · Terraform · Google Cloud · Firebase · GitHub Actions |
 | **Bioinformatics** | Bioconductor · Seurat · Kallisto |

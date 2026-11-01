@@ -18,6 +18,6 @@
     <text x="72" y="140" font-size="58" font-weight="700" fill="#F0F6FC">Elif Duymaz Yılmaz</text>
     <rect x="74" y="162" width="96" height="4" rx="2" fill="url(#accent)"/>
     <text x="72" y="208" font-size="29" font-weight="600" fill="#F0F6FC">AI-Native Full-Stack Engineer &amp; Data Scientist</text>
-    <text x="72" y="246" font-size="21" fill="#9DA7B3">Building and shipping products, from data to deployment</text>
+    <text x="72" y="246" font-size="21" fill="#9DA7B3">Building products, from data to deployment</text>
   </g>
 </svg>
