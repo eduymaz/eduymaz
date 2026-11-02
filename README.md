@@ -48,7 +48,7 @@ A personalized, explainable daily outdoor allergy risk app in active development
 
 **Built with:** Flutter · FastAPI · SQLAlchemy · PostgreSQL · Terraform · Astro
 
-**[allermind.com](https://allermind-b21fe.web.app/tr/)**
+**[allermind.com](https://allermind.com/tr/)**.
 
 ### Fonfody
 
