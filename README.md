@@ -19,7 +19,7 @@ I currently work as an **AI Developer** and co-founded **Yilmaz Game Studio**, w
 ### Tostik Town
 
 <p align="center">
-  <a href="https://yilmazgamestudio.github.io/tostik-town/"><img src="assets/tostik-town.png" alt="Tostik Town cover art: a toastie master behind the counter with neighborhood customers and a cat" width="640"></a>
+  <a href="https://eustoregamestudio.github.io/tostik-town/"><img src="assets/tostik-town.png" alt="Tostik Town cover art: a toastie master behind the counter with neighborhood customers and a cat" width="640"></a>
 </p>
 
 A top-down toastie shop game for the browser, available in English and Turkish. Press every toastie by hand, serve the neighborhood and grow your tiny shop.
@@ -72,8 +72,8 @@ A personalized, explainable daily outdoor allergy risk app in active development
 **AI Developer — Efsora · Vave Health** · Current<br>
 Developing AI-powered software in a professional product team.
 
-**Co-founder & Game Developer — [Yilmaz Game Studio](https://github.com/yilmazgamestudio)** · Current<br>
-Designing, building and releasing browser games, starting with Tostik Town.
+**Co-founder & Game Developer — [EUStore Game Studio Github](https://github.com/eustoregamestudio)** · Current<br>
+👊🏼 for Games [EUStore Game Studio](http://eustore.games/)
 
 ---
 
