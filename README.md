@@ -26,7 +26,7 @@ A top-down toastie shop game for the browser, available in English and Turkish. 
 
 **Built with:** Phaser 4 · JavaScript · Python build and art tooling · original music synthesized live with the Web Audio API
 
-**[▶ Play now](https://yilmazgamestudio.github.io/tostik-town/)** · **[Release repository](https://github.com/yilmazgamestudio/tostik-town)** · A Yilmaz Game Studio production
+**[▶ Play now](https://eustoregamestudio.github.io/tostik-town/)** · **[Release repository](https://github.com/eustoregamestudio/tostik-town)** · A EUStore Game Studio production
 
 ### allermind
 
